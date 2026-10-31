@@ -1,0 +1,20 @@
+title: agency-mono
+description: Project site for agency-mono.
+
+remote_theme: just-the-docs/just-the-docs@v0.12.0
+plugins:
+  - jekyll-remote-theme
+
+color_scheme: light
+search_enabled: true
+heading_anchors: true
+enable_copy_code_button: true
+back_to_top: true
+back_to_top_text: Back to top
+
+# Repo plumbing that should never be published.
+exclude:
+  - .github/
+  - Gemfile
+  - Gemfile.lock
+  - vendor/
